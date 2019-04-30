@@ -768,7 +768,7 @@ article p {
   }
 }
 
-/* lg */
+/* lg: 1440px */
 
 @media (min-width: 1400px) {
   /* newsArticles styles */
@@ -791,6 +791,10 @@ article p {
   .feature1 .imgWrapper,
   .feature2 .imgWrapper {
     padding-top: 37%; 
+  }
+
+  .featureContainer p {
+    font-size: 1.0rem;
   }
 }
 
